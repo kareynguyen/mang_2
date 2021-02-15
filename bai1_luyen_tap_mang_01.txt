@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+let integers = [23, 56, 11, 4, 6, 10, 35, 7, 5, 45];
+let count = 0;
+for (let i=0; i< integers.length; i++){
+    if (integers[i] >=10){
+        count++;
+    }
+}document.write('There are ' + count + ' integers which greater than 10')
+</script>

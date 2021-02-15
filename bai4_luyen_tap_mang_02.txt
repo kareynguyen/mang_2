@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+let str=('i love you')
+alert(str.split('').length)
+
+</script>

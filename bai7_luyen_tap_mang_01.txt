@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let array = [-4, -5, 4, 23, 6, 8, -10, 5, 4, 4, 4, 4, 4];
+    let num = parseInt(prompt('Enter a number: '));
+    for (let i = 0; i < array.length; i++) {
+        if (num == array[i]) {
+            array.splice(i, 1)
+            i--
+        }
+    }
+    console.log(array)
+
+</script>

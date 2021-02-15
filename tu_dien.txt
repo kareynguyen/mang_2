@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+<body>
+<input type="text" id="eng" placeholder="Input English word">
+<input type="button" value="Translate" onclick="eng_vie()">
+<input type="text" id="vie">
+</body>
+</html>
+<script>
+    // function eng_vie() {
+    //     let eng = ['apple','orange','banana'];
+    //     let vie = ['quả táo','quả cam','quả chuối'];
+    //     let engWord = document.getElementById('eng').value;
+    //     let vieWord;
+    //     for (i = 0; i < eng.length; i++) {
+    //         if (eng[i]=== engWord) {
+    //             vieWord = vie[i]
+    //             console.log(vieWord)
+    //             break;
+    //         } else {
+    //             vieWord = 'Not found';
+    //         }
+    //     }
+    //     document.getElementById('vie').value = vieWord;
+    // }
+
+    function eng_vie(){
+        let eng = ['apple','orange','banana'];
+        let vie = ['quả táo','quả cam','quả chuối'];
+        let engWord = document.getElementById('eng').value;
+        let vieWord = (eng.indexOf(engWord)== -1)?'Not found':vie[eng.indexOf(engWord)];
+        document.getElementById('vie').value=vieWord;
+    }
+</script>

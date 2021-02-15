@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let array = [-4, -5, 4, 23, 6, 8, -10, 5];
+    let num = parseInt(prompt('Enter a number: '));
+    let inArray = (array.indexOf(num)==-1)? false:true;
+    if (inArray){
+        alert('is in the array')
+    }else {
+        alert('is not in the array')
+    }
+</script>

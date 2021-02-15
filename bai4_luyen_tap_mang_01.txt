@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let array = [];
+    let count = 0;
+    let n = parseInt(prompt('Enter volume: '));
+    for (let i=1; i<n; i++) {
+        let int = prompt('Enter a number');
+        array.push(int);
+        count++;
+    }
+    document.write(array.reverse())
+</script>
